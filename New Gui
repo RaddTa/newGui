@@ -1,0 +1,321 @@
+local Material = loadstring(game:HttpGet("https://pastebin.com/raw/GEVkk6ar"))()
+
+local UI = Material.Load({
+     Title = "Pet Simulator X Script By:RADD| Ver: 999.0",
+     Style = 24,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Aqua"
+})
+
+local Page = UI.New({
+    Title = "GUI's🤿",
+
+})
+   Page.Button({
+    Text = "🤿 Open Merchant GUI ",
+    Callback = function()
+       game.Players.LocalPlayer.PlayerGui.Merchant.Enabled = not game.Players.LocalPlayer.PlayerGui.Merchant.Enabled
+game.Players.LocalPlayer.PlayerGui.Merchant.Visible = not game.Players.LocalPlayer.PlayerGui.Merchant.Visible
+
+
+
+
+
+    end
+})
+
+   Page.Button({
+    Text = "🤿 Open Rainbow GUI ",
+    Callback = function()
+       game.Players.LocalPlayer.PlayerGui.Rainbow.Enabled = not game.Players.LocalPlayer.PlayerGui.Rainbow.Enabled
+game.Players.LocalPlayer.PlayerGui.Rainbow.Visible = not game.Players.LocalPlayer.PlayerGui.Rainbow.Visible
+
+
+
+
+
+
+
+    end
+
+})
+   Page.Button({
+    Text = "🤿 Open Gold GUI ",
+    Callback = function()
+       game.Players.LocalPlayer.PlayerGui.Golden.Enabled = not game.Players.LocalPlayer.PlayerGui.Golden.Enabled
+game.Players.LocalPlayer.PlayerGui.Golden.Visible = not game.Players.LocalPlayer.PlayerGui.Golden.Visible
+
+
+
+
+
+
+
+    end
+
+})
+   Page.Button({
+    Text = "🤿 Open Fuse GUI ",
+    Callback = function()
+       game.Players.LocalPlayer.PlayerGui.FusePets.Enabled = not game.Players.LocalPlayer.PlayerGui.FusePets.Enabled
+game.Players.LocalPlayer.PlayerGui.FusePets.Visible = not game.Players.LocalPlayer.PlayerGui.FusePets.Visible
+
+
+
+
+
+
+
+    end
+
+})
+   Page.Button({
+    Text = "🤿 Open DarkMatter GUI ",
+    Callback = function()
+       game.Players.LocalPlayer.PlayerGui.DarkMatter.Enabled = not game.Players.LocalPlayer.PlayerGui.DarkMatter.Enabled
+game.Players.LocalPlayer.PlayerGui.DarkMatter.Visible = not game.Players.LocalPlayer.PlayerGui.DarkMatter.Visible
+
+
+
+
+
+
+
+    end
+})
+
+
+    
+
+local Page = UI.New({
+    Title = "Main",
+    
+   })
+
+Page.Button({
+    Text = "Main Farming GUI (Updated)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RaddTa/PetSimulatorX2022script/main/TYEs", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Anti Afk",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RaddTa/antiafk/main/anti", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Kick When Staff Joins",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RaddTa/KickWhenStaff/main/kick", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Fps Boost",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RaddTa/fpsboost/main/boost", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "More Fps Boost",
+    Callback = function()
+       loadstring(game:HttpGet("hhttps://raw.githubusercontent.com/RaddTa/MoreFPSBoost/main/More", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Remove Textures",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RaddTa/RemoveText/main/Remove", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Infinite Yield Admin",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RaddTa/AdminCommands/main/Admin", true))()
+
+
+
+    end
+
+})
+
+Page.Button({
+    Text = "Crash Server Outdated",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/crashserver/main/crash", true))()
+
+
+
+    end
+
+})
+
+Page.Button({
+    Text = "Faster Hoverboard",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RaddTa/FasterHoverbaord/main/Fast", true))()
+
+
+
+    end
+
+})
+
+Page.Button({
+    Text = "Show Pet Chances",
+    Callback = function()
+       loadstring(game:HttpGet("https://github.com/RaddTa/ShowPetChances/blob/main/Chance", true))()
+
+
+
+    end
+
+})
+
+
+local Page = UI.New({
+    Title = "Fusing Outdated🧪",
+    
+   })
+Page.Button({
+    Text = "🧪 Click To Fuse Rainbow (Updated Not Fully, Use [Shiny Axolotl Eggs])",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/autofuseupdated/main/updated", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "🧪 Click To Fuse Gold (Not Updated)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/Autofusegold/main/autofuse%20gold", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "🧪 Fast AutoFuse (Not Updated)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/Autofusefast/main/fast", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "🛑 Stop AutoFuse (Works For Fast Autofuse) 🛑",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/StopAutoFuse/main/StopAutofuse", true))()
+
+
+
+    end
+})
+
+local Page = UI.New({
+    Title = "Auto Gold or Rainbow Outdated ☄️",
+    
+   })
+   Page.Button({
+    Text = "☄️ Auto Gold/Rainbow",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/AutoGoldrainbow/main/autogoldrainbowMAIN", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "☄️ Auto Gold",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/AutoGold/main/autogold", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "☄️ Auto Rainbow",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/AutoRainbow/main/autorainbow", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "☄️ Auto Rainbow/Gold Ignores Mythicals",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/autorainbowgoldignoremythical/main/ignore", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "🛑 Stop Auto Gold/Rainbow 🛑",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/StopAutoGoldRainbow/main/StopAutoGoldRainbow", true))()
+
+
+
+    end
+})
+
+local Page = UI.New({
+    Title = "Auto Enchant Outdated 🌀",
+    
+   })
+   Page.Button({
+    Text = "🌀 Auto Enchant Rainbow V 🌀",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/autoenchantrainbow/main/enchant", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "🛑 Emergency Stop 🛑",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/raddtaz/Emergencystop/main/stop", true))()
+
+
+
+    end
+})
